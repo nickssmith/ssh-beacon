@@ -36,7 +36,7 @@ if __name__ == '__main__':
                 # if data is the correct passphrase, echo it back
                 if data.decode() == passphrase:
                     #print('sending data back to the client')
-                    connection.sendall(data)
+                    connection.sendall(passphrase)
                 else:
                     break
         finally:
