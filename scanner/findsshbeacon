@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# use the virt env
+source /usr/local/findsshbeacon/venv/bin/activate
+# run scanner to get print IP of 1st valid beacon
+python3 /usr/local/findsshbeacon/scanner.py
