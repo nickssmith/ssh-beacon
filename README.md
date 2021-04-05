@@ -16,7 +16,7 @@ Some use cases include:
 
 ## requirements
 
-python3
+python3-venv
 
 
 ## Service
